@@ -1,0 +1,16 @@
+node_modules/
+dist/
+artifacts/
+
+*.log
+*.err.log
+
+.env
+.env.*
+!.env.example
+
+.DS_Store
+Thumbs.db
+
+.agents/
+.codex/

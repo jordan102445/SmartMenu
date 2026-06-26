@@ -1,0 +1,98 @@
+[
+  {
+    "id": "truffle-margherita",
+    "category": "Pizza",
+    "name": "Truffle Margherita",
+    "price": 16,
+    "image": "https://images.unsplash.com/photo-1604382355076-af4b0eb60143?auto=format&fit=crop&w=900&q=80",
+    "ingredients": ["San Marzano tomato", "buffalo mozzarella", "basil", "black truffle oil"]
+  },
+  {
+    "id": "diavola-glow",
+    "category": "Pizza",
+    "name": "Diavola Glow",
+    "price": 18,
+    "image": "https://images.unsplash.com/photo-1628840042765-356cda07504e?auto=format&fit=crop&w=900&q=80",
+    "ingredients": ["spicy salami", "fior di latte", "chili honey", "oregano"]
+  },
+  {
+    "id": "garden-neon",
+    "category": "Pizza",
+    "name": "Garden Neon",
+    "price": 15,
+    "image": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?auto=format&fit=crop&w=900&q=80",
+    "ingredients": ["zucchini", "roasted peppers", "ricotta", "pesto"]
+  },
+  {
+    "id": "smoked-brioche-burger",
+    "category": "Burgers",
+    "name": "Smoked Brioche Burger",
+    "price": 17,
+    "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=900&q=80",
+    "ingredients": ["dry-aged beef", "smoked cheddar", "pickled onion", "house aioli"]
+  },
+  {
+    "id": "midnight-crispy-chicken",
+    "category": "Burgers",
+    "name": "Midnight Crispy Chicken",
+    "price": 15,
+    "image": "https://images.unsplash.com/photo-1606755962773-d324e2d53335?auto=format&fit=crop&w=900&q=80",
+    "ingredients": ["buttermilk chicken", "jalapeno slaw", "pepper glaze", "brioche"]
+  },
+  {
+    "id": "ember-smash",
+    "category": "Burgers",
+    "name": "Ember Smash",
+    "price": 14,
+    "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=900&q=80",
+    "ingredients": ["double patty", "American cheese", "burger sauce", "crispy shallots"]
+  },
+  {
+    "id": "citrus-aurora",
+    "category": "Drinks",
+    "name": "Citrus Aurora",
+    "price": 8,
+    "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=80",
+    "ingredients": ["blood orange", "lime", "tonic", "rosemary vapor"]
+  },
+  {
+    "id": "espresso-cloud",
+    "category": "Drinks",
+    "name": "Espresso Cloud",
+    "price": 7,
+    "image": "https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=900&q=80",
+    "ingredients": ["cold brew", "vanilla foam", "cacao", "sea salt"]
+  },
+  {
+    "id": "mint-halo",
+    "category": "Drinks",
+    "name": "Mint Halo",
+    "price": 7,
+    "image": "https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&w=900&q=80",
+    "ingredients": ["mint", "cucumber", "elderflower", "sparkling water"]
+  },
+  {
+    "id": "molten-chocolate-orbit",
+    "category": "Desserts",
+    "name": "Molten Chocolate Orbit",
+    "price": 10,
+    "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=900&q=80",
+    "ingredients": ["dark chocolate", "espresso caramel", "vanilla gelato", "hazelnut dust"]
+  },
+  {
+    "id": "berry-signal-cheesecake",
+    "category": "Desserts",
+    "name": "Berry Signal Cheesecake",
+    "price": 9,
+    "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&w=900&q=80",
+    "ingredients": ["cream cheese", "raspberry gel", "almond crumble", "lemon zest"]
+  },
+  {
+    "id": "saffron-panna-cotta",
+    "category": "Desserts",
+    "name": "Saffron Panna Cotta",
+    "price": 9,
+    "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=900&q=80",
+    "ingredients": ["saffron cream", "pistachio", "orange blossom", "honey glass"]
+  }
+]
