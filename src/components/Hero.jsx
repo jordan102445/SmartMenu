@@ -65,10 +65,10 @@ export default function Hero({ featuredItem, onPreview, onOrder }) {
         initial={{ opacity: 0, scale: 0.94, y: 28 }}
         animate={{ opacity: 1, scale: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.1, ease: "easeOut" }}
-        className="relative order-1 mx-auto h-[450px] w-full max-w-[440px] sm:h-[620px] lg:order-2 lg:h-[650px]"
+        className="relative order-1 mx-auto h-[420px] w-full max-w-[440px] sm:h-[620px] lg:order-2 lg:h-[650px]"
       >
-        <div className="absolute inset-x-2 bottom-0 h-[70%] rounded-[2rem] border border-white/10 bg-gradient-to-b from-white/10 to-white/[0.03] shadow-glass backdrop-blur-2xl" />
-        <div className="absolute inset-x-0 top-0 h-[64%]">
+        <div className="absolute inset-x-2 bottom-2 h-[62%] rounded-[2rem] border border-white/10 bg-gradient-to-b from-white/10 to-white/[0.03] shadow-glass backdrop-blur-2xl sm:bottom-0 sm:h-[70%]" />
+        <div className="absolute -inset-x-8 -top-8 h-[64%] sm:inset-x-0 sm:top-0 sm:h-[64%]">
           <PizzaARScene
             modelType={featuredItem.category}
             modelUrl={featuredItem.modelUrl}
@@ -77,8 +77,13 @@ export default function Hero({ featuredItem, onPreview, onOrder }) {
             modelRotation={featuredItem.modelRotation}
           />
         </div>
-        <div className="absolute inset-x-7 bottom-10">
-          <MenuCardPreview item={featuredItem} />
+        <div className="absolute inset-x-5 bottom-6 sm:inset-x-7 sm:bottom-10">
+          <div className="sm:hidden">
+            <MenuCardPreview item={featuredItem} compact />
+          </div>
+          <div className="hidden sm:block">
+            <MenuCardPreview item={featuredItem} />
+          </div>
         </div>
       </motion.div>
     </section>
