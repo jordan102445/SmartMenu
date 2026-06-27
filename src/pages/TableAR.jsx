@@ -114,7 +114,7 @@ export default function TableAR() {
         <PizzaARScene
           modelType={selectedItem.category}
           modelUrl={selectedItem.modelUrl}
-          modelScale={selectedItem.modelScale}
+          modelScale={selectedItem.cameraModelScale ?? selectedItem.modelScale}
           modelPosition={selectedItem.modelPosition}
           modelRotation={selectedItem.modelRotation}
         />
