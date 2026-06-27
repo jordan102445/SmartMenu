@@ -4,7 +4,7 @@ import DrinkModel from "./DrinkModel.jsx";
 import DessertModel from "./DessertModel.jsx";
 import RealFoodModel from "./RealFoodModel.jsx";
 
-// FoodModel selects the available procedural placeholder model for each menu category.
+// FoodModel prefers downloaded GLB assets and falls back to procedural placeholders.
 export default function FoodModel({ type, modelUrl, modelScale, modelPosition, modelRotation }) {
   if (modelUrl) {
     return (

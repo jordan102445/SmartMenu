@@ -33,7 +33,7 @@ export default function ReelPreview() {
           </span>
         </div>
 
-        <div className="absolute inset-x-0 top-[9%] z-10 h-[56%]">
+        <div className="absolute inset-x-0 top-[22%] z-10 h-[39%]">
           <PizzaARScene
             modelType={pizza.category}
             modelUrl={pizza.modelUrl}

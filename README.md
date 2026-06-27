@@ -44,20 +44,22 @@ Recommended iPhone test flow:
 
 ## Realistic Food Models
 
-Place real GLB models in:
+The project includes downloaded GLB models in:
 
 ```text
 public/models/
 ```
 
-Then connect a menu item in `src/data/menu.json`:
+Attribution and licenses are documented in `public/models/ATTRIBUTION.md`.
+
+To replace a menu item with a more realistic scan later, add the `.glb` file and connect it in `src/data/menu.json`:
 
 ```json
 {
   "modelUrl": "/models/smoked-brioche-burger.glb",
   "usdzUrl": "/models/smoked-brioche-burger.usdz",
   "modelScale": 1.2,
-  "arScale": 0.22,
+  "cameraModelScale": 1.1,
   "modelPosition": [0, 0, 0],
   "modelRotation": [0, 0, 0]
 }

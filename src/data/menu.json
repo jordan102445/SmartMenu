@@ -10,7 +10,12 @@
       "buffalo mozzarella",
       "basil",
       "black truffle oil"
-    ]
+    ],
+    "modelUrl": "/models/pizza-margherita-poly-pizza.glb",
+    "modelScale": 3,
+    "cameraModelScale": 2.8,
+    "modelPosition": [0, 0, 0],
+    "modelRotation": [0, 0, 0]
   },
   {
     "id": "diavola-glow",
@@ -23,7 +28,12 @@
       "fior di latte",
       "chili honey",
       "oregano"
-    ]
+    ],
+    "modelUrl": "/models/pepperoni-pizza-poly-pizza.glb",
+    "modelScale": 0.42,
+    "cameraModelScale": 0.38,
+    "modelPosition": [0, 0, 0],
+    "modelRotation": [0, 0, 0]
   },
   {
     "id": "garden-neon",
@@ -36,7 +46,12 @@
       "roasted peppers",
       "ricotta",
       "pesto"
-    ]
+    ],
+    "modelUrl": "/models/pizza-margherita-poly-pizza.glb",
+    "modelScale": 3,
+    "cameraModelScale": 2.8,
+    "modelPosition": [0, 0, 0],
+    "modelRotation": [0, 0, 0]
   },
   {
     "id": "smoked-brioche-burger",
@@ -49,7 +64,12 @@
       "smoked cheddar",
       "pickled onion",
       "house aioli"
-    ]
+    ],
+    "modelUrl": "/models/kani-burger-code4fukui.glb",
+    "modelScale": 6,
+    "cameraModelScale": 5.4,
+    "modelPosition": [0, 0, 0],
+    "modelRotation": [0, 0, 0]
   },
   {
     "id": "midnight-crispy-chicken",
@@ -62,7 +82,12 @@
       "jalapeno slaw",
       "pepper glaze",
       "brioche"
-    ]
+    ],
+    "modelUrl": "/models/hotsand-code4fukui.glb",
+    "modelScale": 4.7,
+    "cameraModelScale": 4.3,
+    "modelPosition": [0, 0, 0],
+    "modelRotation": [0, 0, 0]
   },
   {
     "id": "ember-smash",
@@ -75,7 +100,12 @@
       "American cheese",
       "burger sauce",
       "crispy shallots"
-    ]
+    ],
+    "modelUrl": "/models/cheeseburger-poly-pizza.glb",
+    "modelScale": 0.36,
+    "cameraModelScale": 0.32,
+    "modelPosition": [0, 0, 0],
+    "modelRotation": [0, 0, 0]
   },
   {
     "id": "citrus-aurora",
@@ -88,7 +118,12 @@
       "lime",
       "tonic",
       "rosemary vapor"
-    ]
+    ],
+    "modelUrl": "/models/cocktail-kenney-poly-pizza.glb",
+    "modelScale": 3.2,
+    "cameraModelScale": 2.9,
+    "modelPosition": [0, 0, 0],
+    "modelRotation": [0, 0, 0]
   },
   {
     "id": "espresso-cloud",
@@ -101,7 +136,12 @@
       "vanilla foam",
       "cacao",
       "sea salt"
-    ]
+    ],
+    "modelUrl": "/models/frappe-kenney-poly-pizza.glb",
+    "modelScale": 3.15,
+    "cameraModelScale": 2.9,
+    "modelPosition": [0, 0, 0],
+    "modelRotation": [0, 0, 0]
   },
   {
     "id": "mint-halo",
@@ -114,7 +154,12 @@
       "cucumber",
       "elderflower",
       "sparkling water"
-    ]
+    ],
+    "modelUrl": "/models/cocktail-kenney-poly-pizza.glb",
+    "modelScale": 3.2,
+    "cameraModelScale": 2.9,
+    "modelPosition": [0, 0, 0],
+    "modelRotation": [0, 0, 0]
   },
   {
     "id": "molten-chocolate-orbit",
@@ -127,7 +172,12 @@
       "espresso caramel",
       "vanilla gelato",
       "hazelnut dust"
-    ]
+    ],
+    "modelUrl": "/models/cake-code4fukui.glb",
+    "modelScale": 7,
+    "cameraModelScale": 6.3,
+    "modelPosition": [0, 0, 0],
+    "modelRotation": [0, 0, 0]
   },
   {
     "id": "berry-signal-cheesecake",
@@ -140,7 +190,12 @@
       "raspberry gel",
       "almond crumble",
       "lemon zest"
-    ]
+    ],
+    "modelUrl": "/models/cake-code4fukui.glb",
+    "modelScale": 7,
+    "cameraModelScale": 6.3,
+    "modelPosition": [0, 0, 0],
+    "modelRotation": [0, 0, 0]
   },
   {
     "id": "saffron-panna-cotta",
@@ -153,6 +208,11 @@
       "pistachio",
       "orange blossom",
       "honey glass"
-    ]
+    ],
+    "modelUrl": "/models/cake-code4fukui.glb",
+    "modelScale": 7,
+    "cameraModelScale": 6.3,
+    "modelPosition": [0, 0, 0],
+    "modelRotation": [0, 0, 0]
   }
 ]

@@ -1,9 +1,34 @@
-# Model Source Shortlist
+# Model Sources
 
-Use these as starting points for realistic `.glb` food downloads. Download the GLB from the source site, rename it to the matching menu item id, place it in `public/models/`, then run:
+## Installed Model Pack
 
-```powershell
-npm.cmd run models:link
+The app now includes downloaded `.glb` models in this folder. See `ATTRIBUTION.md` for exact model names, source URLs, and licenses.
+
+Current installed files:
+
+- `pizza-margherita-poly-pizza.glb`
+- `pepperoni-pizza-poly-pizza.glb`
+- `cheeseburger-poly-pizza.glb`
+- `cocktail-kenney-poly-pizza.glb`
+- `frappe-kenney-poly-pizza.glb`
+- `cake-code4fukui.glb`
+- `hotsand-code4fukui.glb`
+- `kani-burger-code4fukui.glb`
+
+These are real downloaded GLB assets. Some are stylized/open-source models, not ultra-realistic restaurant photogrammetry scans.
+
+## Add Dish-Specific Models Later
+
+To replace one item with a more realistic restaurant-specific scan, put a packed `.glb` in `public/models/` and update that item in `src/data/menu.json`:
+
+```json
+{
+  "modelUrl": "/models/my-real-dish.glb",
+  "modelScale": 1.2,
+  "cameraModelScale": 1.1,
+  "modelPosition": [0, 0, 0],
+  "modelRotation": [0, 0, 0]
+}
 ```
 
 ## Current Menu Filenames
